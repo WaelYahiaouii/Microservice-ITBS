@@ -1,6 +1,0 @@
-@echo off
-echo Installation des dependances...
-call npm install
-echo.
-echo Demarrage du serveur de developpement...
-call npm start
