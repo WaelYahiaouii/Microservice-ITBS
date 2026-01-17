@@ -1,0 +1,45 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.status-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status-online {
+  background-color: #28a745;
+}
+
+.status-offline {
+  background-color: #dc3545;
+}
+
+.card-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.badge-critique {
+  background-color: #dc2626;
+}
+
+.badge-elevee {
+  background-color: #f59e0b;
+}
+
+.badge-moyenne {
+  background-color: #fbbf24;
+}
+
+.badge-faible {
+  background-color: #10b981;
+}
